@@ -1,6 +1,0 @@
-[2m2025-12-04T06:54:26.555735Z[0m [33m WARN[0m [2mcrates\core\src\worker_metrics\mod.rs[0m[2m:[0m[2m481[0m[2m:[0m Skipping tokio metrics for 0.0.0.0:3000, as they are not enabled in this build.
-[2m2025-12-04T06:54:26.559783Z[0m [32m INFO[0m [2mD:\a\SpacetimeDB\SpacetimeDB\crates\standalone\src\subcommands\start.rs[0m[2m:[0m[2m195[0m[2m:[0m Starting SpacetimeDB listening on 0.0.0.0:3000
-[2m2025-12-04T06:54:26.559994Z[0m [33m WARN[0m [2mD:\a\SpacetimeDB\SpacetimeDB\crates\standalone\src\subcommands\start.rs[0m[2m:[0m[2m216[0m[2m:[0m PostgreSQL wire protocol server disabled
-[2m2025-12-04T06:58:49.804530Z[0m [33m WARN[0m [2mcrates\core\src\worker_metrics\mod.rs[0m[2m:[0m[2m481[0m[2m:[0m Skipping tokio metrics for 0.0.0.0:3000, as they are not enabled in this build.
-[2m2025-12-04T06:58:49.808116Z[0m [32m INFO[0m [2mD:\a\SpacetimeDB\SpacetimeDB\crates\standalone\src\subcommands\start.rs[0m[2m:[0m[2m195[0m[2m:[0m Starting SpacetimeDB listening on 0.0.0.0:3000
-[2m2025-12-04T06:58:49.808416Z[0m [33m WARN[0m [2mD:\a\SpacetimeDB\SpacetimeDB\crates\standalone\src\subcommands\start.rs[0m[2m:[0m[2m216[0m[2m:[0m PostgreSQL wire protocol server disabled

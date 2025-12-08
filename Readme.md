@@ -37,3 +37,6 @@
 #### 2.1 初始化服务器（仅首次或需要重新初始化时）
 
 在任务列表中选择：`初始化服务器`，VS Code 会在终端中执行：
+
+
+https://spacetimedb.com/docs/quickstarts/c-sharp/

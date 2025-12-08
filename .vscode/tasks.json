@@ -14,7 +14,7 @@
         {
             "label": "编译插件",
             "type": "shell",
-            "command": "sapcetimedb/spacetimedb-cli.exe publish --project-path ./main-server/spacetimedb -y mainserver",
+            "command": "sapcetimedb/spacetimedb-cli.exe publish --server local --project-path ./main-server/spacetimedb -y mainserver",
         }
     ]
 }
