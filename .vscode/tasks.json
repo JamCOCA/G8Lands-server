@@ -2,19 +2,31 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "初始化服务器",
+            "label": "配置环境",
             "type": "shell",
-            "command": "sapcetimedb/spacetimedb-cli.exe init --project-path ./main-server --local --lang csharp main-server",
+            "command": "iwr https://windows.spacetimedb.com -useb | iex; winget install Microsoft.DotNet.SDK.8; dotnet workload install wasi-experimental"
+        },
+        {
+            "label": "初始化项目",
+            "type": "shell",
+            "command": "spacetime init --local --lang csharp --project-path ./main-server main-server",
+        },
+        {
+            "label": "生成解决方案",
+            "type": "shell",
+            "command": "dotnet new sln -n main-server; dotnet sln main-server.sln add \"main-server\\spacetimedb\\StdbModule.csproj\"",
+            "problemMatcher": []
         },
         {
             "label": "启动服务器",
             "type": "shell",
-            "command": "sapcetimedb/spacetimedb-cli.exe start --data-dir server-data",
+            "command": "spacetime start --data-dir server-data",
         },
         {
             "label": "编译插件",
             "type": "shell",
-            "command": "sapcetimedb/spacetimedb-cli.exe publish --server local --project-path ./main-server/spacetimedb -y mainserver",
+            "command": "spacetime publish --server local --project-path ./main-server/spacetimedb -y mainserver",
         }
+        
     ]
 }

@@ -1,0 +1,2 @@
+{"level":"Info","ts":1765183580709489,"target":"__spacetimedb__","filename":"__spacetimedb__","function":"__spacetimedb__","message":"Creating table `Person`"}
+{"level":"Info","ts":1765183580717234,"target":"__spacetimedb__","filename":"__spacetimedb__","function":"__spacetimedb__","message":"Database initialized"}

@@ -1,42 +1,40 @@
-# 项目结构说明
+初始化项目与指令链接
 
-本项目包含 SpacetimeDB 的服务端模块代码及运行所需的工具和数据目录。
+1. 安装 spacetime
 
-## 目录结构
+```powershell
+iwr https://windows.spacetimedb.com -useb | iex
+```
 
-- **main-server/**
-  - **spacetimedb/**: 核心业务逻辑代码，包含 SpacetimeDB 模块的 C# 实现。
-    - `Lib.cs`: 模块入口及主要逻辑定义。
-    - `StdbModule.csproj`: C# 项目配置文件。
-- **sapcetimedb/**: 包含 SpacetimeDB 的本地运行环境和工具。
-  - `spacetimedb-cli.exe`: SpacetimeDB 命令行管理工具 (CLI)，用于发布和管理模块。
-  - `spacetimedb-standalone.exe`: SpacetimeDB 独立数据库服务程序。
-- **server-data/**: 数据库运行时产生的数据、日志和配置文件目录。
-  - `config.toml`: 服务端配置文件。
-  - `logs/`: 运行日志目录。
-- **SpacetimdeDB.sln**: 项目的 .NET 解决方案文件，用于管理整个工程。
-- **global.json**: .NET SDK 版本配置文件，确保构建环境一致性。
+2. 安装 .NET SDK 8
 
-## 使用 VS Code 任务运行服务器和工具
+```powershell
+winget install Microsoft.DotNet.SDK.8
+```
 
-本项目已经在 VS Code 中配置了常用任务（初始化服务器 / 启动服务器 / 编译插件），推荐通过任务来统一操作，而不是手动输入命令。
+3. 安装 WASI 工作负载（实验性）
 
-### 1. 打开任务列表
+```powershell
+dotnet workload install wasi-experimental
+```
 
-1. 在 VS Code 顶部菜单中选择：`终端` → `运行任务...`
-2. 或者按 `Ctrl + Shift + P`，输入 `任务: 运行任务` 并回车。
+4. 初始化项目
 
-在弹出的列表中，你会看到类似以下任务：
+```powershell
+spacetime init --lang csharp --project-path ./main-server main-server
+```
 
-- `初始化服务器`
-- `启动服务器`
-- `编译插件`
+5. 生成解决方案并添加项目
 
-### 2. 常用任务说明
+```powershell
+dotnet new sln -n main-server
+dotnet sln main-server.sln add "main-server\spacetimedb\StdbModule.csproj"
+```
 
-#### 2.1 初始化服务器（仅首次或需要重新初始化时）
+VS Code 任务快捷方式
+- 任务：`配置环境`（一步安装 1-3）
+- 任务：`初始化服务器`（执行第 4 步）
+- 任务：`生成解决方案`（执行第 5 步）
 
-在任务列表中选择：`初始化服务器`，VS Code 会在终端中执行：
+在 VS Code 中按 `Ctrl+Shift+P`，运行“Tasks: Run Task”，选择对应任务即可。
 
-
-https://spacetimedb.com/docs/quickstarts/c-sharp/
