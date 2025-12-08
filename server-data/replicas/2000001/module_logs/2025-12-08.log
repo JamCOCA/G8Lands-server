@@ -1,2 +1,25 @@
-{"level":"Info","ts":1765183580709489,"target":"__spacetimedb__","filename":"__spacetimedb__","function":"__spacetimedb__","message":"Creating table `Person`"}
-{"level":"Info","ts":1765183580717234,"target":"__spacetimedb__","filename":"__spacetimedb__","function":"__spacetimedb__","message":"Database initialized"}
+{"level":"Info","ts":1765184598934222,"target":"__spacetimedb__","filename":"__spacetimedb__","function":"__spacetimedb__","message":"Creating table `Person`"}
+{"level":"Info","ts":1765184598943664,"target":"__spacetimedb__","filename":"__spacetimedb__","function":"__spacetimedb__","message":"Database initialized"}
+{"level":"Info","ts":1765184706921024,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}
+{"level":"Info","ts":1765184744996230,"target":"Add","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":19,"function":"Add","message":"Inserted Kobe under #1"}
+{"level":"Info","ts":1765184775439024,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765184775439128,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}
+{"level":"Info","ts":1765184898440977,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765184898441388,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}
+{"level":"Info","ts":1765184920384381,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765184920384455,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}
+{"level":"Info","ts":1765184922569705,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765184922569750,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}
+{"level":"Info","ts":1765184932490036,"target":"Add","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":19,"function":"Add","message":"Inserted Kobe under #4097"}
+{"level":"Info","ts":1765184982635195,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765184982635255,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765184982635290,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}
+{"level":"Info","ts":1765185418387247,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765185418387493,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765185418387804,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}
+{"level":"Info","ts":1765185420617838,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765185420617898,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765185420617929,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}
+{"level":"Info","ts":1765185421476335,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765185421476408,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":27,"function":"SayHello","message":"Hello, Kobe!"}
+{"level":"Info","ts":1765185421476447,"target":"SayHello","filename":"D:\\Project\\SpacetimdeDB\\main-server\\spacetimedb\\Lib.cs","line_number":29,"function":"SayHello","message":"Hello, World!"}

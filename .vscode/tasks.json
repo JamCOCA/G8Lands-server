@@ -25,7 +25,12 @@
         {
             "label": "编译插件",
             "type": "shell",
-            "command": "spacetime publish --server local --project-path ./main-server/spacetimedb -y mainserver",
+            "command": "spacetime publish --server local --project-path ./main-server/spacetimedb -y main-server",
+        },
+        {
+            "label": "打开Debug控制台",
+            "type": "shell",
+            "command": "spacetime logs -s local -f main-server",
         }
         
     ]

@@ -4,7 +4,7 @@ jwt-pub-key-path = "~/.config/spacetime/id_ecdsa.pub"
 
 [logs]
 # The default level filter for logging
-# level = "ERROR"
+level = "info"
 
 # directives for logging, see link for syntax:
 # https://docs.rs/tracing-subscriber/latest/tracing_subscriber/struct.EnvFilter.html#directives
