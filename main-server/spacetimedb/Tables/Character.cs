@@ -13,10 +13,6 @@ public static partial class Module
         public long Gold;
         public int MapId;
         public DbVector3 Position;
-        public int Strength;
-        public int Agility;
-        public int Intelligence;
-        public int Vitality;
         public Hp Hp;
         public Stamina Stamina;
         public long CreatedAtUnix;
